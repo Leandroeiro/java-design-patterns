@@ -32,6 +32,7 @@ public class FishingBoatAdapter implements RowingBoat {
 
   private final FishingBoat boat = new FishingBoat();
 
+  // Translate the row() call expected by the client into sail() of the adaptee
   public final void row() {
     boat.sail();
   }
